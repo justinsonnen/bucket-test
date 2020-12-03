@@ -1,6 +1,6 @@
 var img = new Image();
 img.crossOrigin = 'anonymous';
-img.src = './assets/rhino.jpg';
+img.src = '/assets/rhino.jpg';
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
 img.onload = function() {
